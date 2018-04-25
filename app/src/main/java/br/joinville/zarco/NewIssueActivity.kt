@@ -12,6 +12,7 @@ class NewIssueActivity : AppCompatActivity() {
         setContentView(R.layout.activity_new_issue)
 
         val saveButton = findViewById<Button>(R.id.save_button)
-        saveButton.setOnClickListener({ startActivity(Intent(this, MainActivity::class.java)) })
+        // TODO: handle data
+        saveButton.setOnClickListener({ finish() })
     }
 }
