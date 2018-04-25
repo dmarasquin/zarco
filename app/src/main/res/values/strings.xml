@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">zarco</string>
+
+    <string-array name="period_arrays">
+        <item>Hoje</item>
+        <item>Essa semana</item>
+        <item>Esse mês</item>
+        <item>Esse ano</item>
+    </string-array>
+
 </resources>
