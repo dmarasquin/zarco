@@ -32,10 +32,11 @@
         android:layout_below="@id/time" />
 
     <Button
-        android:id="@+id/save"
+        android:id="@+id/save_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Registrar"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"/>
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp" />
 </android.widget.RelativeLayout>
